@@ -1,0 +1,113 @@
+/************Base Styles ***************/
+* {
+	box-sizing: border-box;
+}
+
+h1{
+	margin-bottom: 15px;
+	text-align: center;
+	margin-top: 20px;
+	font-family: Bodoni MT Black;
+	font-weight: 48;
+	color:orange;
+}
+
+h2 {
+	text-align: center;
+	padding: 3px;
+	border: 1px solid black;
+	height: 30px;
+	width: 145px;
+	margin-top: 0px;
+	float:right;
+	font-style: italic;
+}
+
+p {
+	
+    font-size: medium;
+    color: black;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 5px;
+    padding-top: 0px;
+    font-family: Helvetica;
+}
+
+/* Simple responsive framework */
+.row {
+	width: 100%;
+}
+.box {
+    border: 1px solid black;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-top: 20px;
+    text-align: right;
+    overflow: auto;
+	height: 200px;
+
+    }
+
+#buiscuits {
+    background-color: 	#00FFFF;
+}
+#cocktails {
+    background-color: #556B2F;
+}
+#stDay {
+    background-color: #00FA9A;
+}
+
+.box1 {
+	background-color: #F0FFFF;
+}
+.box2 {
+	background-color: #F8F8FF
+}
+.box3 {
+	background-color: #FFEFD5;
+}
+
+.clear{
+	clear:both;
+}
+.my-col-1, .my-col-2 {
+		float: left;
+	}
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+	.my-col-1 {
+		width:33.3%;
+	}
+	.my-col-2 {
+		width: 33.3%;
+	}
+}
+
+/********** Medium devices/Tablets only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+	
+	.my-col-1 {
+		width:50%;
+	}
+	.my-col-2 {
+		width: 100%;
+	}
+}
+
+/********** Small devices/Smart phones only **********/
+@media (max-width: 767px) {
+	.my-col-1, .my-col-2 {
+		float: none;
+	}
+	.my-col-1 {
+		width:100%;
+	}
+	.my-col-2 
+		width: 100%;
+	}
+
+}
+
